@@ -1,8 +1,12 @@
 aid: flatfair
 name: flatfair
-description: 'flatfair is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'flatfair is a UK-based tenancy deposit platform for letting agents, landlords, and Build-to-Rent
+  operators, offering deposit alternatives and deposit administration products. Its products include No
+  Deposit (tenants pay 28% of one month''s rent plus VAT instead of a five-week cash deposit), Deposits,
+  Unlock Deposits, Deposit Boost, tenant Referencing, and Tenant Guarantor. flatfair is used by more than
+  850 agents and Build-to-Rent operators to reduce move-in friction and cut deposit administration time
+  by around 60 minutes per tenancy. The company operates a web application for agents and tenants but does
+  not publish a public developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/flatfair/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,30 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.flatfair.co.uk/hubfs/website-theme/flatfair_logo.svg
 tags:
 - Company
 - Fintech
+- PropTech
+- Rental
+- Deposits
+- Tenancy
+- Real Estate
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/flatfair-domain-security.yml
 - type: Website
-  url: http://flatfair.co.uk
+  url: https://flatfair.co.uk
+- type: Support
+  url: https://help.flatfair.co.uk/hc/en-gb
+- type: Blog
+  url: https://blog.flatfair.co.uk/
+- type: TermsOfService
+  url: https://flatfair.co.uk/terms-conditions/
+- type: PrivacyPolicy
+  url: https://flatfair.co.uk/privacy-policy/
+- type: Login
+  url: https://app.flatfair.co.uk/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
