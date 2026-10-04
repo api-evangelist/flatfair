@@ -47,7 +47,7 @@ tags:
 - Rentals
 - Deposits
 - Tenancy
-- Real-Estate
+- Real Estate
 - United Kingdom
 tags_raw:
 - Company
@@ -58,6 +58,7 @@ tags_raw:
 - Tenancy
 - Real Estate
 - United Kingdom
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
